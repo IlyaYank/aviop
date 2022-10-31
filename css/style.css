@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Mirza-Bold';
+    src: url('../fonts/Mirza-Bold.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IslandMoments-Regular';
+    src: url('../fonts/IslandMoments-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*Header*/
+
+.header {
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 20px;
+    /*display: flex;*/
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex-header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/*Logo*/
+.logo {
+    max-width: 250px;
+}
+
+h1 {
+    font-family: 'Mirza-Bold';
+    font-weight: 700;
+    font-size: 35px;
+    color: #4075ff;
+}
+
+.Voronej {
+    color: #384195;
+}
+
+.Logo-text-one {
+    font-family: 'Mirza-Bold', cursive;
+    font-weight: 700;
+    text-align: start;
+    color: #384195;
+}
+
+.Logo-text-two {
+    line-height: 10px;
+    font-family: 'Mirza-Bold', cursive;
+    font-weight: 700;
+    text-align: end;
+    color: #4075ff;
+}
+
+/*Навигация */
+.navigation {
+    padding-top: 35px;
+    margin-right: 20px;
+}
+
+.nav_ul {
+
+}
+
+.nav_list {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #0400CD;
+    font-weight: 900;
+}
